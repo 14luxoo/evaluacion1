@@ -1,0 +1,2 @@
+# Políticas de Seguridad
+Si encuentras alguna vulnerabilidad en este microservicio, por favor repórtala enviando un correo a los mantenedores del proyecto. No abras un issue público para reportar fallos de seguridad.
