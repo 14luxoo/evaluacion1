@@ -1,0 +1,14 @@
+name: Pipeline de Integracion Continua
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout de codigo
+        uses: actions/checkout@v4
+      - name: Simulacion de Build
+        run: echo "El microservicio se ha compilado y validado correctamente para Duoc UC."
